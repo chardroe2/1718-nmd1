@@ -1,0 +1,46 @@
+main{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.landing {
+
+    height: 100vh;
+    width: 100%;
+    background-image: url("../../assets/img/pattern3.png");
+    background-repeat: repeat;
+    background-size: 15%;
+    background-color: #242939;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.landing img {
+    margin-bottom: 5vh;
+    width: 10%;
+}
+
+.landing h1 {
+    font-size: 4em;
+    color: #FFFFFF;
+    font-weight: 100;
+    font-family: 'Dancing Script', cursive;
+    margin-bottom: 10%;
+    transform: rotate(-5deg);
+    text-shadow: 2px 2px 5px #FFFFFF;
+
+
+}
+
+.projects {
+    height: 100vh;
+    width: 100%;
+    background-image: url("../../assets/img/invertedsquares.svg");
+    background-repeat: repeat;
+    background-size: 80%;
+}
