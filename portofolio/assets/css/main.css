@@ -8,9 +8,6 @@ main{
 
     height: 100vh;
     width: 100%;
-    background-image: url("../../assets/img/pattern3.png");
-    background-repeat: repeat;
-    background-size: 15%;
     background-color: #242939;
     display: flex;
     flex-direction: column;
@@ -22,25 +19,55 @@ main{
 
 .landing img {
     margin-bottom: 5vh;
-    width: 10%;
+    width: 7%;
 }
 
+
 .landing h1 {
-    font-size: 4em;
+    font-size: 2em;
     color: #FFFFFF;
     font-weight: 100;
     font-family: 'Dancing Script', cursive;
-    margin-bottom: 10%;
     transform: rotate(-5deg);
     text-shadow: 2px 2px 5px #FFFFFF;
 
 
 }
 
-.projects {
+.intro {
     height: 100vh;
     width: 100%;
-    background-image: url("../../assets/img/invertedsquares.svg");
-    background-repeat: repeat;
-    background-size: 80%;
+    display: flex;
+    flex-direction: row;
+
+
+}
+
+.intro aside {
+    height: 100vh;
+    width: 50%;
+    background-color: #242939;
+}
+.intro section {
+    display: flex;
+    width: 50%;
+    justify-content: center;
+}
+.intro section h1 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 5em;
+    color: #d3c479;
+    font-weight: 100;
+    margin-top: 5%;
+
+
+}
+
+
+#whale {
+    position: relative;
+    margin-top: 50%;
+    width: 60%;
+
+
 }
